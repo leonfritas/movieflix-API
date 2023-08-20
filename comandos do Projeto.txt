@@ -1,0 +1,32 @@
+git init
+
+npm init -y
+
+--Comando para instalar a dependencia do typescript
+npm i -D typescript
+npx tsc --init
+
+npm i -D @types/node
+
+
+compilar typescript ==> javascript
+npx tsc src/server.ts
+
+
+rodar projeto
+node src/server.js
+
+para instalar o tsx
+npm i -D tsx
+
+para rodar e observaar alterações no arquivo
+npx tsx watch src/server.ts
+
+criar esse script no package json
+  "scripts": {
+    "dev":"npx tsx watch src/server.ts"
+  },
+
+  agora para rodar o projeto
+  npm run dev
+
