@@ -40,3 +40,18 @@ npm init @eslint/config
 Instalar outra dependencia para poder rodar typeScript junto com express
 
 npm i @types/express --save-dev
+
+instalando o prisma
+
+npm install prisma --save-dev
+
+listar comandos do prisma
+npx prisma -h
+
+iniciar prisma
+npx prisma init
+
+
+baixar extensão do prisma
+
+
