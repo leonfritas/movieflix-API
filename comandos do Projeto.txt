@@ -35,3 +35,8 @@ criar esse script no package json
 eslint
 
 npm init @eslint/config
+
+
+Instalar outra dependencia para poder rodar typeScript junto com express
+
+npm i @types/express --save-dev
