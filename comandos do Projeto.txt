@@ -30,3 +30,8 @@ criar esse script no package json
   agora para rodar o projeto
   npm run dev
 
+
+
+eslint
+
+npm init @eslint/config
