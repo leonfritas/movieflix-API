@@ -67,3 +67,6 @@ npm i @prisma/client
 
 se mexer no arquivo schema.prisma precisa rodar esse comando para gerar novamente os models
 npx prisma generate
+
+
+usar 'include' do findMany para puxar campos de outra tabela que estão relacionado com a tabela que estou usando através de foreign key
