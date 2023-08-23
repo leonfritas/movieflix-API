@@ -54,4 +54,16 @@ npx prisma init
 
 baixar extensão do prisma
 
+após configurar caminho DATABASE_URL
 
+DATABASE_URL="postgresql://postgres:2cervas1camarao@localhost:5432/movieflix?schema=public"
+usar comando 
+npx prisma db pull 
+para espelhar tabelas e campos do campo no código .prisma
+
+
+npm i @prisma/client
+
+
+se mexer no arquivo schema.prisma precisa rodar esse comando para gerar novamente os models
+npx prisma generate
