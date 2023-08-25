@@ -70,3 +70,10 @@ npx prisma generate
 
 
 usar 'include' do findMany para puxar campos de outra tabela que estão relacionado com a tabela que estou usando através de foreign key
+
+
+
+SWAGGER
+
+DOCUMENTAÇÃO DE API
+
